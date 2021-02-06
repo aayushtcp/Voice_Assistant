@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+struct student
+{
+	char name [20];
+	int age;
+	float height;
+
+};
+int main()
+{
+	struct student s[5];
+	int i,kpoli;
+	printf("Enter the name, age and height!\n");
+	for(i=0; i<5 ; i++){
+		printf("Enter your name \n");
+		scanf("%s", s[i].name);
+		//Next page
+		printf("Enter your age \n");
+		scanf("%d",&s[i].age);
+		printf("Enter your height\n");
+		scanf("%f", &s[i].height);
+		printf("\n");
+	}
+	printf("displaying students details:\n\n");
+	for(i=0;i<5; i++){
+		// printf("\n Name:");          (yo code try na garnus)
+		// puts(s[i].name);              (yo code try na garnus)
+		// printf("AGE: %d",s[i].age);           (yo code try na garnus)
+		kpoli=strlen(s[i].name);
+		if(s[i].name[kpoli-1]=='a'){
+			printf("\n Name:");
+			puts(s[i].name);
+			printf("AGE: %d",s[i].age);
+			printf("\n");
+		}
+		//Next Page
+	}
+	return 0;
+}
