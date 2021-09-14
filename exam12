@@ -22,7 +22,7 @@
 //         printf("Age: ");
 //         scanf("%d", &e[i].age);
 //         printf("Salary: ");
-//         scanf("%d", &e[i].salary)
+//         scanf("%d", &e[i].salary);
 //         printf("\n");
 //     }
 
@@ -31,7 +31,7 @@
 //     {
 //         printf("Name=%s\t",e[i].name);
 //         printf("Age=%d", e[i].age);
-//         printf("Salary=%d", e[i].salary)
+//         printf("Salary=%d", e[i].salary);
 //         printf("\n");
 //     }
 // }
@@ -225,7 +225,7 @@
 //           scanf("%s",s[i].add);
 //      }
 
-//      for(i=0;i<n;i++)
+//      for(i=0;i<n-1;i++)
 //      {
 //           for(j=i+1;j<n;j++)
 //           {
